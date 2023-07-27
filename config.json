@@ -1,0 +1,5 @@
+{
+  "column1": {"strategy": "bloom", "params": {"error_rate": 0.2}},
+  "column2": {"strategy": "range"},
+  "column3": {"strategy": "date", "params": {"date_format": "%Y-%m"}}
+}
